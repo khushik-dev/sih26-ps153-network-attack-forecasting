@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cicids2017",
+    "name": "CIC-IDS2017",
+    "description": "Canadian Institute for Cybersecurity benchmark containing benign and common network attacks (DoS, DDoS, Brute Force, XSS, Botnet) over realistic network topologies.",
+    "schema_notes": "Flow-based CSV exports (Destination Port, Flow Duration, Total Fwd Packets, SYN Flag Count, etc.).",
+    "official_url": "https://www.unb.ca/cic/datasets/ids-2017.html",
+    "fetchable": false,
+    "fetch_note": "Requires academic registration/click-through agreement on UNB server. Manual download & upload required."
+  },
+  {
+    "id": "cicids2018",
+    "name": "CSE-CIC-IDS2018",
+    "description": "Expanded AWS-based multi-scenario enterprise intrusion dataset featuring realistic enterprise traffic profiles and multi-vector botnet/bruteforce campaigns.",
+    "schema_notes": "Flow-based CSV format with comprehensive bidirectional packet statistics.",
+    "official_url": "https://www.unb.ca/cic/datasets/ids-2018.html",
+    "fetchable": false,
+    "fetch_note": "Hosted via AWS/UNB portal requiring authentication/agreement. Manual download & upload required."
+  },
+  {
+    "id": "ciciot2023",
+    "name": "CICIoT2023",
+    "description": "Large-scale IoT telemetry dataset capturing diverse IoT device profiles and 33 distinct attack types (DDoS, Recon, Spoofing, Mirai).",
+    "schema_notes": "IoT flow telemetry records.",
+    "official_url": "https://www.unb.ca/cic/datasets/iot-dataset-2023.html",
+    "fetchable": false,
+    "fetch_note": "Large multi-gigabyte archive requiring manual acquisition."
+  },
+  {
+    "id": "unsw_nb15",
+    "name": "UNSW-NB15",
+    "description": "Cyber Range Lab dataset combining real normal activities and synthetic attack behaviors (Fuzzers, Analysis, Backdoors, DoS, Exploits).",
+    "schema_notes": "Mixed flow and packet header features (proto, service, state, spkts, dpkts).",
+    "official_url": "https://research.unsw.edu.au/projects/unsw-nb15-dataset",
+    "fetchable": false,
+    "fetch_note": "Hosted on UNSW server; manual download required."
+  },
+  {
+    "id": "ctu13",
+    "name": "CTU-13",
+    "description": "Stratosphere Laboratory dataset containing 13 real botnet scenarios captured mixed with background enterprise traffic.",
+    "schema_notes": "NetFlow v5 records (.bin / .csv).",
+    "official_url": "https://www.stratosphereips.org/datasets-ctu13",
+    "fetchable": true,
+    "fetch_note": "Direct public HTTP access available for sample NetFlow captures.",
+    "sample_url": "https://raw.githubusercontent.com/stratosphereips/StratosphereDatasetCC/master/datasets/ctu-13/README.md"
+  },
+  {
+    "id": "lanl_auth",
+    "name": "LANL Comprehensive Authentication",
+    "description": "Los Alamos National Laboratory network event logs capturing Windows authentication events over 58 days.",
+    "schema_notes": "Authentication logs (time, source user, destination user, authentication type).",
+    "official_url": "https://anl.gov/nsa/lanl-comprehensive-multi-source-cybersecurity-events",
+    "fetchable": false,
+    "fetch_note": "Restricted government dataset requiring formal request."
+  },
+  {
+    "id": "darpa_ids",
+    "name": "DARPA Intrusion Detection Evaluation",
+    "description": "Historical benchmark datasets (1998-1999 Lincoln Laboratory) simulating military network intrusions.",
+    "schema_notes": "Raw tcpdump packet captures.",
+    "official_url": "https://www.ll.mit.edu/r-d/datasets/darpa-intrusion-detection-evaluation-datasets",
+    "fetchable": false,
+    "fetch_note": "Legacy dataset archived for historical comparison."
+  }
+]

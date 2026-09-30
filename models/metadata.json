@@ -1,0 +1,22 @@
+{
+    "seq_len": 5,
+    "input_dim": 15,
+    "feature_names": [
+        "flow_count",
+        "bytes_total",
+        "packets_total",
+        "mean_duration",
+        "mean_iat",
+        "iat_variance",
+        "syn_ratio",
+        "ack_ratio",
+        "rst_ratio",
+        "unique_dst_ports",
+        "unique_src_ports",
+        "mean_pkt_length",
+        "retransmission_rate",
+        "active_mean",
+        "idle_mean"
+    ],
+    "window_seconds": 5
+}

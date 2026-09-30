@@ -1,0 +1,44 @@
+{
+  "T1595": {
+    "technique_id": "T1595",
+    "name": "Active Scanning",
+    "tactic": "Reconnaissance",
+    "description": "Adversaries may execute active scanning probes to gather information targeted at networks, systems, or services before launching an infiltration.",
+    "url": "https://attack.mitre.org/techniques/T1595/"
+  },
+  "T1110": {
+    "technique_id": "T1110",
+    "name": "Brute Force",
+    "tactic": "Initial Access",
+    "description": "Adversaries may use brute force techniques to guess credentials for accounts across services such as SSH, RDP, or SMB.",
+    "url": "https://attack.mitre.org/techniques/T1110/"
+  },
+  "T1210": {
+    "technique_id": "T1210",
+    "name": "Exploitation of Remote Services",
+    "tactic": "Lateral Movement",
+    "description": "Adversaries may exploit vulnerable remote services (such as SMB port 445 or RPC endpoints) to gain unauthorized access or move laterally.",
+    "url": "https://attack.mitre.org/techniques/T1210/"
+  },
+  "T1071": {
+    "technique_id": "T1071",
+    "name": "Application Layer Protocol",
+    "tactic": "Command and Control",
+    "description": "Adversaries may communicate using application layer protocols (such as HTTP/HTTPS or DNS) to cloak command and control traffic within normal web activity.",
+    "url": "https://attack.mitre.org/techniques/T1071/"
+  },
+  "T1041": {
+    "technique_id": "T1041",
+    "name": "Exfiltration Over C2 Channel",
+    "tactic": "Exfiltration",
+    "description": "Adversaries may pilfer data by copying it over their existing command and control channel to an external server.",
+    "url": "https://attack.mitre.org/techniques/T1041/"
+  },
+  "T1078": {
+    "technique_id": "T1078",
+    "name": "Valid Accounts",
+    "tactic": "Defense Evasion / Initial Access",
+    "description": "Adversaries may obtain and abuse credentials of existing accounts as a means of gaining initial access, persistence, privilege escalation, or defense evasion.",
+    "url": "https://attack.mitre.org/techniques/T1078/"
+  }
+}
